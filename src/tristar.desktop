@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Accessibility;Qt;Utility;
+Exec=tristar
+Name=tristar
+Name[zh_CN]=tristar
+Icon=tristar
+StartupNotify=false
+Terminal=false
+Type=Application
+GenericName=tristar
+Version=1.0

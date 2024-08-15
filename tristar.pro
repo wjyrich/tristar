@@ -39,3 +39,11 @@ RESOURCES += \
 OTHER_FILES += \
     src/windows.rc \
     README.txt
+
+target.path = $$PREFIX/bin
+desktop.files = tristar.desktop
+desktop.path = $$PREFIX/share/applications/
+icons.path = $$PREFIX/share/icons
+icons.files = src/images/tristar.png
+
+INSTALLS += target desktop icons
